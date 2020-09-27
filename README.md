@@ -1,6 +1,10 @@
-# chess
+# <a href="https://github.com/dmarcoux/chess.dmarcoux.com">dmarcoux/chess.dmarcoux.com</a>
 
-## Project setup
+## Development
+
+Built with [Vue.js 2](https://vuejs.org/). The chessboard is from [vue-chessboard](https://github.com/vitogit/vue-chessboard).
+
+### Project setup
 ```
 npm install
 ```
@@ -20,5 +24,14 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Production
+
+### Host
+
+The application is hosted on [Netlify](https://www.netlify.com/) with the following settings:
+- Build command: `npm run build`
+- Publish directory: `dist`
+
+### Domain
+
+The domain is managed on [Cloudflare](https://www.cloudflare.com/).
