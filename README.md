@@ -34,6 +34,9 @@ The application is hosted on [Netlify](https://www.netlify.com/) with the follow
 - Build command: `npm run build`
 - Publish directory: `dist`
 
+[Deploy notifications](https://docs.netlify.com/site-deploys/notifications/#github-pull-request-comments)
+are commenting in pull requests whenever the deploy preview is ready. The notification's event is `Deploy Preview succeeded`.
+
 ### Domain
 
 The domain is managed on [Cloudflare](https://www.cloudflare.com/).
