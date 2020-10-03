@@ -39,4 +39,5 @@ are commenting in pull requests whenever the deploy preview is ready. The notifi
 
 ### Domain
 
-The domain is managed on [Cloudflare](https://www.cloudflare.com/).
+The domain `dmarcoux.com` is managed on [Cloudflare](https://www.cloudflare.com/) with a `CNAME` record for `chess`
+pointing to the default site name provided by Netlify. A custom domain is then set for `chess.dmarcoux.com` on Netlify.
